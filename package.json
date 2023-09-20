@@ -1,0 +1,23 @@
+{
+  "name": "crypto-prices-cli",
+  "version": "1.0.0",
+  "description": "This CLI nodejs app shows prices of crypto currencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Isirima/crypto-prices-cli.git"
+  },
+  "keywords": [
+    "Cryptocurrency",
+    "web3"
+  ],
+  "author": "Samuel Isirima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel-Isirima/crypto-prices-cli/issues"
+  },
+  "homepage": "https://github.com/Samuel-Isirima/crypto-prices-cli#readme"
+}
