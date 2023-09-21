@@ -1,23 +1,19 @@
 {
-  "name": "crypto-prices-cli",
+  "name": "coindex",
   "version": "1.0.0",
-  "description": "This CLI nodejs app shows prices of crypto currencies",
+  "description": "",
   "main": "index.js",
+  "bin": "./bin/coindex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Samuel-Isirima/crypto-prices-cli.git"
-  },
-  "keywords": [
-    "Cryptocurrency",
-    "web3"
-  ],
   "author": "Samuel Isirima",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Samuel-Isirima/crypto-prices-cli/issues"
-  },
-  "homepage": "https://github.com/Samuel-Isirima/crypto-prices-cli#readme"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
 }
